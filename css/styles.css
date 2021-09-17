@@ -73,6 +73,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .phone {
@@ -80,6 +81,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 /* Site nav */
@@ -110,19 +112,26 @@ site-nav .link:focus {
 
 .hero-title {
   color: var(--primary-btn-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Section */
 
 .section-caption {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 .section-title {
   color: var(--title-text-color);
@@ -145,16 +154,45 @@ site-nav .link:focus {
 .title {
   color: var(--primary-text-color);
   background-color: var(--primary-btn-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .subtitle {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+/* Веб сайты */
+
+.link {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.subject {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* Button */
@@ -163,11 +201,21 @@ site-nav .link:focus {
   background-color: var(--accent-color);
   font-family: inherit;
   border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 .button-1 {
   color: var(--title-text-color);
   background-color: var(--accent-btn-color);
   border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 /* Footer */
 
@@ -176,10 +224,13 @@ site-nav .link:focus {
   background-color: #2f303a;
 }
 .address {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--address-color);
   list-style: none;
+  text-decoration: none;
 }
