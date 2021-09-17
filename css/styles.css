@@ -1,0 +1,185 @@
+/* Цвет основного текста #757575; */
+
+/* Вторичный цвет текста rgba(33, 33, 33, 1); */
+
+/* белый #FFFFFF; */
+
+/* акцент #2196F3; */
+
+/* вторичный цвет фона #F5F4FA; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --accent-btn-color: #f5f4fa;
+  --primary-btn-color: #ffffff;
+  --background-btn-color: #2f303a;
+  --address-color: rgba(255, 255, 255, 0.6);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.body {
+  background-color: var(--primary-btn-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Header */
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-2 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.logo-3 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-btn-color);
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Шапка сайта */
+
+.mail {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.phone {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+site-nav .link:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--background-btn-color);
+}
+
+.hero-title {
+  color: var(--primary-btn-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Section */
+
+.section-caption {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.section-title {
+  color: var(--title-text-color);
+  background-color: var(--accent-btn-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.section-heading {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Features */
+
+.title {
+  color: var(--primary-text-color);
+  background-color: var(--primary-btn-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.subtitle {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Button */
+.button {
+  color: var(--primary-btn-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  border: none;
+}
+.button-1 {
+  color: var(--title-text-color);
+  background-color: var(--accent-btn-color);
+  border: none;
+}
+/* Footer */
+
+.footer {
+  color: var(--primary-btn-color);
+  background-color: #2f303a;
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-color);
+  list-style: none;
+}
