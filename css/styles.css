@@ -87,9 +87,9 @@ site-nav .link:focus {
 
 .site-nav .link.current {
   color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   text-decoration: none;
 }
 .mail {
@@ -189,12 +189,6 @@ site-nav .link:focus {
 
 .items {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
   text-decoration: none;
 }
 
@@ -209,8 +203,19 @@ site-nav .link:focus {
   text-decoration: none;
 }
 
+.items-heading {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 /* Button */
-.button {
+.button:hover,
+button:focus {
   color: var(--primary-btn-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -221,7 +226,8 @@ site-nav .link:focus {
   font-size: 16px;
   line-height: 1.87;
 }
-.button-1 {
+.button-1:hover,
+button:focus {
   color: var(--title-text-color);
   background-color: var(--accent-btn-color);
   border: none;
