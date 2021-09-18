@@ -67,27 +67,16 @@ ul {
 }
 
 /* Шапка сайта */
-
-.mail {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-}
-
-.phone {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-}
-
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -102,6 +91,27 @@ site-nav .link:focus {
   font-size: 16px;
   line-height: 1.9;
   text-decoration: none;
+}
+.mail {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.phone {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 /* Hero */
@@ -136,9 +146,13 @@ site-nav .link:focus {
 .section-title {
   color: var(--title-text-color);
   background-color: var(--accent-btn-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section-heading {
@@ -173,7 +187,7 @@ site-nav .link:focus {
 
 /* Веб сайты */
 
-.link {
+.items {
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -184,7 +198,7 @@ site-nav .link:focus {
   text-decoration: none;
 }
 
-.subject {
+.section-items {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -233,4 +247,14 @@ site-nav .link:focus {
   color: var(--address-color);
   list-style: none;
   text-decoration: none;
+}
+
+.address-1 {
+  color: var(--primary-btn-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
