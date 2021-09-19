@@ -213,30 +213,61 @@ site-nav .link:focus {
   letter-spacing: 0.06em;
 }
 
-/* Button */
+/* Button Студия */
+
 .button:hover,
 button:focus {
   color: var(--primary-btn-color);
   background-color: var(--accent-color);
-  font-family: inherit;
   border: none;
+}
+
+.button {
+  color: var(--primary-btn-color);
+  background-color: var(--accent-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.82;
+  letter-spacing: 0.06em;
 }
-.button-1:hover,
-button:focus {
+
+/* Button Портофолио */
+.button.primary:hover,
+button.primary:focus {
+  color: var(--primary-btn-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
   color: var(--title-text-color);
   background-color: var(--accent-btn-color);
-  border: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
+  border: none;
 }
+
+.button.secondary:hover,
+button.secondary:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--accent-btn-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
 /* Footer */
 
 .footer {
@@ -255,7 +286,7 @@ button:focus {
   text-decoration: none;
 }
 
-.address-1 {
+.address-main {
   color: var(--primary-btn-color);
   font-family: Roboto;
   font-style: normal;
